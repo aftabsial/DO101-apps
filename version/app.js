@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 1 of the app. Now Rajni make two cups of Tea ;-P.' + '\n';
+    response = 'This is version 3 of the app. Sard Sham or unke hath ki Tea. Dil Behlane ko Ghalib Khial Acha hy. :-D.' + '\n';
 
     //send the response to the client
     res.send(response);
